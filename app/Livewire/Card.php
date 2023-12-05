@@ -12,4 +12,5 @@ class Card extends Component
     {
         return view('livewire.card');
     }
+
 }

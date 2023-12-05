@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',\App\Livewire\HompePage::class);
+Route::get('/show/artikel/{slug}',\App\Livewire\ShowArtikel::class)->name('show.artikel');
