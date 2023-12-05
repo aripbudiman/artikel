@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 pre{
-    @apply p-4 rounded-md;
+    @apply p-4 rounded-md text-lg;
 }
 
 p code{
     @apply bg-gray-300 font-semibold p-1 rounded-md;
+}
+article{
+    @apply text-xl;
 }
