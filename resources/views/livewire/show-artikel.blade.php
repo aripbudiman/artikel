@@ -1,8 +1,8 @@
 <div>
     <img src="{{Storage::url($article->thumbnail)}}" alt="">
-    <article>
-        <x-markdown>
-            {!! $article->content !!}
-        </x-markdown>
+    <article class="prose">
+        @markdown
+        {!! $article->content !!}
+        @endmarkdown
     </article>
 </div>
